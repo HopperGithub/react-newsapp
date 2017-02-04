@@ -1,0 +1,19 @@
+{
+  "name": "react-newsapp",
+  "version": "1.0.0",
+  "description": "a app about news",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HopperGithub/reactProjectDemo1.git"
+  },
+  "author": "hopper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HopperGithub/reactProjectDemo1/issues"
+  },
+  "homepage": "https://github.com/HopperGithub/reactProjectDemo1#readme"
+}
