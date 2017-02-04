@@ -1,13 +1,11 @@
 {
   "name": "react-newsapp",
   "version": "1.0.0",
-  "description": "a app about news",
+  "description": "a news app",
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
-    "hot": "node server_hot.js",
-    "dist": "webpack --config webpack.config.dist.js --progress --colors --watch -p",
-    "test": "test",
+    "dist": "webpack --progress --colors -p"
   },
   "repository": {
     "type": "git",
