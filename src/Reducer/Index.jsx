@@ -6,7 +6,7 @@ import { Tool, merged } from '../Tool';
  * @param {Object} action
  * @returns Object
  */
-const User = (state = JSON.parse(Tool.localItem('User')), action) => {
+const User = (state = JSON.parse(Tool.localItem('User')), action = 'signinSuccess') => {
 
     switch (action.type) {
         case 'signinSuccess': //登录成功
