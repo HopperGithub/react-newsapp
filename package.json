@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HopperGithub/reactProjectDemo1.git"
+    "url": "git+https://github.com/HopperGithub/react-newsapp.git"
   },
   "author": "hopper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HopperGithub/reactProjectDemo1/issues"
+    "url": "https://github.com/HopperGithub/react-newsapp/issues"
   },
-  "homepage": "https://github.com/HopperGithub/reactProjectDemo1#readme"
+  "homepage": "https://github.com/HopperGithub/react-newsapp#readme"
 }
