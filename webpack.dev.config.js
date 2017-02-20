@@ -34,21 +34,22 @@ var config = {
         	loader: 'file-loader?name=[name].[ext]&publicPath=public&outputPath=images',
         }],
 	},
+	staticOptions: {
+		
+	},
 	plugins: [
 		new ExtractTextPlugin('/styles/main.css'),
 		new webpack.optimize.CommonsChunkPlugin('vendor', '/scripts/vendor.js'),
-		new webpack.optimize.UglifyJsPlugin({
-			compress: {
-
-			},
-			minimize: true
-		}),
-		new webpack.DefinePlugin({
-			'process.env': {
-				NODE_ENV: JSON.stringify('production')
-			}
-		}),
 	],
+	devServer: {
+		host: '0.0.0.0',
+		proxy: {
+			'/api': {
+				target: 'http://127.0.0.1:8585/',
+				secure: false
+			}
+		},
+	}
 };
 
 module.exports = config;
